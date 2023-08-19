@@ -12,7 +12,7 @@ function setup(){
     button = createButton('Buscar');
     button.mousePressed(searchArticles); // Cuando se presione el botón, llama a la función searchArticles
 
-    loadJSON(baseUrl + "?q=pets&api-key=" + apiKey, gotData); // Carga inicial con "pets" como consulta
+    //loadJSON(baseUrl + "?q=pets&api-key=" + apiKey, gotData); // Carga inicial con "pets" como consulta
 }
 
 function searchArticles(){
